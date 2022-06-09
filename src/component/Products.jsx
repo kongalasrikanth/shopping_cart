@@ -29,7 +29,7 @@ const Products = () => {
         return (
         <>
         <div className="col-md-3">
-            <Skeleton height={350}/>
+            <Skeleton height={350}/> 
         </div>
         <div className="col-md-3">
             <Skeleton height={350}/>
@@ -53,8 +53,8 @@ const Products = () => {
             <>
                 <div className="buttons d-flex justify-content-center mb-5 pd-5">
                     <button className="btn btn-outline-dark me-2" onClick={()=>setFilter(data)}>All</button>
-                    <button className="btn btn-outline-dark me-2" onClick={()=>filterProduct("men's clothing")}>Men's Clothing</button>
-                    <button className="btn btn-outline-dark me-2" onClick={()=>filterProduct("women's clothing")}>Women's Clothing</button>
+                    <button className="btn btn-outline-dark me-2" onClick={()=>filterProduct("men's clothing")}>Men's clothing</button>
+                    <button className="btn btn-outline-dark me-2" onClick={()=>filterProduct("women's clothing")}>Women clothing</button>
                     <button className="btn btn-outline-dark me-2" onClick={()=>filterProduct("electronics")}>Electronics</button>
                     <button className="btn btn-outline-dark me-2" onClick={()=>filterProduct("jewellary")}>Jewellary</button>
                 </div>

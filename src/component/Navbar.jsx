@@ -26,7 +26,7 @@ const Navbar = () => {
 
                         <form class="d-flex">
                             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                            <button class="btn btn-outline-success" type="submit">Search</button>
+                            <button class="btn btn-outline-success" type="submit">Register</button>   
                         </form>
                         <div className="buttons">
                             <NavLink to="/cart" className="btn btn-outline-dark ms-2">
@@ -39,4 +39,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar
+export default Navbar;

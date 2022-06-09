@@ -10,8 +10,9 @@ function App() {
     <>
     
         <Navbar/>
+        <HOME/>
         <Switch>
-        <Route exact path="/" component={HOME} />
+       
         <Route exact path="/Products" component={Products} />
 
         <Route exact path="/products/:id" component={product} />
